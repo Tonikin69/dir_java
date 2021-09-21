@@ -3,8 +3,19 @@ package com.primerproyecto;
 public class Main {
 
     public static void main(String[] args) {
-	    System.out.println("Hola, esta es mi primera línea de código");
-        System.out.println("Esta es mi segunda línea de código");
-        System.out.println("Me despido con mi tercera línea de código");
+	    String nom="Antonio";
+        String ape1="Martinez";
+        String ape2="Garcia";
+        int eda = 19;
+
+        persona obj = new persona(nom,ape1,ape2,eda);
+        persona obj2 = new persona(nom,ape1,eda);
+
+
+        System.out.println(obj.getcom());
+        System.out.println(obj2.getcom());
+
+
+
     }
 }
