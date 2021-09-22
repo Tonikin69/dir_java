@@ -22,6 +22,8 @@ public class persona {
         com=true;
     }
 
+
+
     public boolean getcom(){
         return com;
     }
