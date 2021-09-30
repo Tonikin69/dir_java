@@ -40,7 +40,7 @@ public class Main {
                 if (line.contains(clave)){
                     Process c = builder2.start();
                     flag=true;
-                } else System.out.println("Esta palabra no esta para hacerla un dir");
+                } else System.out.println("Esta palabra no esta paras hacerla un dir");
             }
 
         } catch (IOException e) {
